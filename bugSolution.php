@@ -1,0 +1,1 @@
+This corrected code utilizes the strict equality operator (`===`) to ensure that both the type and the value are compared.  The strict comparison prevents PHP's type juggling from causing unexpected results.  Now, '1' === 1 will evaluate to `false`, as expected.
