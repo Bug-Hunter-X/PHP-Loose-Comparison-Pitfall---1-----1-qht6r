@@ -1,0 +1,1 @@
+This code suffers from a subtle issue related to PHP's type juggling and how it handles comparisons involving strings and numbers.  The comparison `'1' == 1` evaluates to `true` in PHP due to type coercion.  This can lead to unexpected behavior if you're relying on strict type checking.
